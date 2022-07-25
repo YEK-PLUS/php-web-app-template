@@ -1,0 +1,22 @@
+{
+    "name": "yek-plus/php-web-app",
+    "description": "A template for php web apps",
+    "require": {
+        "klein/klein": "^2.1",
+        "catfan/medoo": "^2.1",
+        "vlucas/phpdotenv": "^5.4",
+        "ext-json": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "YekPlus\\PhpWebApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yunus Emre Köker",
+            "email": "yunusemrekokerr@gmail.com"
+        }
+    ]
+}
